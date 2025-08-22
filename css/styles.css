@@ -1,0 +1,28 @@
+.container {
+  margin: 4vw;
+}
+.container::before {
+  content: "";
+  display: inline-block;
+  height: 3px;
+  width: 80%;
+  background-color: #212121;
+}
+
+@font-face {
+  font-family: Nunito-SemiBold;
+  src: url(Nunito-SemiBold.ttf);
+}
+
+.field {
+  font-family: "Nunito-SemiBold";
+  max-width: 700px;
+  width: 90%;
+  margin: 2vw auto;
+  border: 3px solid #212121;
+}
+
+.pointed_list {
+  list-style-type: none;
+  padding-left: 0;
+}
