@@ -1,0 +1,50 @@
+@font-face {
+  font-family: Nunito-SemiBold;
+  src: url(Nunito-SemiBold.ttf);
+}
+
+.field {
+  font-family: "Nunito-SemiBold";
+  max-width: 700px;
+  width: 90%;
+  margin: 2vw auto;
+  border: 3px solid #212121;
+}
+
+.container {
+  margin: 4vw;
+}
+.container::before {
+  content: "";
+  display: inline-block;
+  height: 3px;
+  width: 80%;
+  background-color: #212121;
+}
+
+.unpointed_list {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 0px;
+}
+
+.pointed_list {
+  list-style-type: disc;
+  padding: 8px 20px;
+  margin-top: 0px;
+}
+
+.your_name {
+  margin-top: 2vw;
+}
+
+.cv-point {
+  color: #2f9e44;
+  margin-bottom: 5px;
+}
+
+.cv-point-details {
+  color: #1971c2;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
