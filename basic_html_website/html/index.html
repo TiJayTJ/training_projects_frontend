@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>Basic HTML Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="icon" type="image/png" href="../resources/html.png" />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="left-section">
+          <slot class="logo-name">Your name</slot>
+        </div>
+        <div class="right-section">
+          <nav>
+            <ul class="global-navigation">
+              <li>Home</li>
+
+              <li>Projects</li>
+
+              <li>Articles</li>
+
+              <li>Contact</li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="site-name">
+        <h1>Frontend-Developer</h1>
+        <p class="html-only">html only with proper with</p>
+      </div>
+    </header>
+    <div class="container">
+      <nav class="nav-block">
+        <h1>Projects</h1>
+        <ul class="page-navigation">
+          <li>HTML Only Portfolio</li>
+          <li>Calculator</li>
+          <li>Quiz App</li>
+          <li>Countdown Timer</li>
+          <li>Product Upcoming Page</li>
+        </ul>
+      </nav>
+      <main>
+        <h1>Work Experience</h1>
+        <div class="content">
+          <p class="main-title">roadmap.sh</p>
+          <p>Solved all the frontend projects</p>
+          <a href="">Visit my Profile</a>
+        </div>
+        <div class="content-last">
+          <p class="main-title">OpenSource Work</p>
+          <p>
+            Contributed to 50 opensource projects. Made my own projects with 200
+            GitHub Stars.
+          </p>
+          <a href="">Visit my GitHub Profile</a>
+        </div>
+      </main>
+      <aside>
+        <h1>Education</h1>
+        <p class="text-item">
+          Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon. Organized 30
+          sessoins.
+        </p>
+        <p class="text-item">Courses I took:</p>
+        <ul class="aside-navigation">
+          <li>Object Oriented Programming</li>
+          <li>Data Structures and Algorithms</li>
+          <li>Web Engineering</li>
+          <li>Artificial Intelligence</li>
+          <li>Human Computer Interaction</li>
+          <li>Computer Graphics</li>
+          <li>Database Management Systems</li>
+          <li>Distributed Database Systems</li>
+          <li>Discreet Mathematics</li>
+        </ul>
+      </aside>
+    </div>
+    <footer>
+      <h1>Reviews from my Teachers</h1>
+      <div class="footer-container">
+        <div class="footer-post">
+          <p class="teacher-comment">
+            John doe was a brilliant student; always stood out with his
+            assignments.
+          </p>
+          <p class="teacher">Jane Doe Assistant Professor</p>
+        </div>
+        <div class="footer-post">
+          <p class="teacher-comment">
+            John doe was a brilliant student; always stood out with his
+            assignments.
+          </p>
+          <p class="teacher">Jane Doe Assistant Professor</p>
+        </div>
+        <div class="footer-last-post">
+          <p class="teacher-comment">
+            John doe was a brilliant student; always stood out with his
+            assignments.
+          </p>
+          <p class="teacher">Jane Doe Assistant Professor</p>
+        </div>
+      </div>
+      <h1 class="footer-rights">&#9426 all rights reserved 2025</h1>
+    </footer>
+  </body>
+</html>

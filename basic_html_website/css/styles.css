@@ -1,0 +1,175 @@
+:root {
+  --font-size: 3ex;
+  --padding: 40px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0 auto;
+  width: 80%;
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+}
+
+header {
+  border: solid;
+  border-width: 3px;
+  display: block;
+  margin-bottom: 0;
+}
+
+.header {
+  display: flex;
+  font-size: 4ex;
+  justify-content: end;
+  padding: var(--padding);
+}
+
+.left-section {
+  margin-right: auto;
+}
+
+.global-navigation {
+  display: flex;
+  list-style-type: none;
+}
+
+.global-navigation li {
+  margin-left: 30px;
+}
+
+.site-name {
+  height: 300px;
+  align-content: center;
+  justify-items: center;
+  font-size: 4ex;
+}
+
+.html-only {
+  margin-top: 10px;
+  color: grey;
+}
+
+.container {
+  margin-top: 0;
+  display: flex;
+}
+
+.nav-block {
+  border: solid;
+  border-width: 3px;
+  border-top: 0px;
+  border-bottom: 0px;
+  flex-grow: 1;
+  padding: var(--padding);
+}
+
+.page-navigation {
+  list-style-type: none;
+  font-size: var(--font-size);
+  margin-top: 15px;
+}
+
+.page-navigation li {
+  margin-top: 15px;
+}
+
+main {
+  flex-grow: 1;
+}
+
+main h1 {
+  margin: var(--padding);
+  margin-bottom: 0px;
+}
+
+.content {
+  border-bottom: 3px solid;
+  font-size: var(--font-size);
+}
+
+.content p,
+a {
+  margin: 15px var(--padding) 15px var(--padding);
+}
+
+.content-last {
+  font-size: var(--font-size);
+}
+
+.content-last p,
+a {
+  margin: 15px var(--padding) 15px var(--padding);
+}
+
+.main-title {
+  font-style: italic;
+}
+
+aside {
+  border: solid;
+  border-width: 3px;
+  border-top: 0px;
+  border-bottom: 0px;
+  flex-grow: 1;
+  max-width: 400px;
+  padding: var(--padding);
+}
+
+aside h1 {
+  margin-bottom: 15px;
+}
+
+.aside-navigation {
+  list-style-type: "- ";
+  margin-left: 13px;
+  font-size: var(--font-size);
+}
+
+.text-item {
+  margin-bottom: 15px;
+  font-size: var(--font-size);
+}
+
+footer {
+  border: solid;
+  border-width: 3px;
+  display: block;
+  padding: var(--padding);
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.footer-post {
+  font-size: var(--font-size);
+  margin-right: 40px;
+  border: 3px solid;
+  border-radius: 40px;
+  padding: var(--padding);
+}
+
+.footer-last-post {
+  font-size: var(--font-size);
+  border: 3px solid;
+  border-radius: 40px;
+  padding: var(--padding);
+}
+
+.teacher {
+  margin-top: 10px;
+  color: rgb(177, 177, 177);
+}
+
+.footer-rights {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
