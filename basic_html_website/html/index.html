@@ -11,18 +11,19 @@
     <header>
       <div class="header">
         <div class="left-section">
-          <slot class="logo-name">Your name</slot>
+            <img alt="logo" src="../resources/html.png" class="logo"/>
+            <slot class="logo-name">Your name</slot>
         </div>
         <div class="right-section">
           <nav>
             <ul class="global-navigation">
-              <li>Home</li>
+              <li class="global-navigation-first">Home</li>
 
-              <li>Projects</li>
+              <li class="global-navigation-notfirst">Projects</li>
 
-              <li>Articles</li>
+              <li class="global-navigation-notfirst">Articles</li>
 
-              <li>Contact</li>
+              <li class="global-navigation-notfirst">Contact</li>
             </ul>
           </nav>
         </div>
@@ -36,11 +37,11 @@
       <nav class="nav-block">
         <h1>Projects</h1>
         <ul class="page-navigation">
-          <li>HTML Only Portfolio</li>
-          <li>Calculator</li>
-          <li>Quiz App</li>
-          <li>Countdown Timer</li>
-          <li>Product Upcoming Page</li>
+          <li class="page-navigation-not-last"><p>HTML Only Portfolio</p></li>
+          <li class="page-navigation-not-last"><p>Calculator</p></li>
+          <li class="page-navigation-not-last"><p>Quiz App</p></li>
+          <li class="page-navigation-not-last"><p>Countdown Timer</p></li>
+          <li class="page-navigation-last"><p >Product Upcoming Page</p></li>
         </ul>
       </nav>
       <main>
