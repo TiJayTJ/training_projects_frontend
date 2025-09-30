@@ -1,0 +1,138 @@
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-form {
+  display: flex;
+  border: 3px solid black;
+  border-radius: 30px;
+  width: 600px;
+  height: 500px;
+  padding: 35px 50px;
+}
+
+.left-side {
+  width: 50%;
+  padding-right: 10%;
+}
+
+.input-field {
+  margin-bottom: 20px;
+}
+
+.input-field label {
+  font-size: x-large;
+}
+
+.input-field input {
+  width: 100%;
+  border: 3px solid black;
+  border-radius: 12px;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: large;
+}
+
+.input-field input[type="email"] {
+  border-color: red;
+}
+
+.input-field input[type="email"]::placeholder {
+  color: red;
+}
+
+.email-message {
+  color: red;
+  font-size: large;
+  margin: 0;
+  margin-top: 5px;
+}
+
+.update-button {
+  padding: 10px;
+  width: 100%;
+  border-radius: 12px;
+  background-color: black;
+  color: white;
+  font-size: large;
+}
+
+.update-button:hover {
+  background-color: rgb(59, 59, 59);
+}
+
+.update-button:active {
+  background-color: rgb(36, 36, 36);
+}
+
+.right-side {
+  width: 50%;
+  justify-items: center;
+  margin-top: 20px;
+  padding-left: 10%;
+}
+
+.progress-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  width: 120px;
+  background: conic-gradient(#b4b4b4 35%, #000000 35%);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.progress-container::before {
+  position: absolute;
+  content: "";
+  height: 110px;
+  width: 110px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.progress-container h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.right-side p {
+  font-size: x-large;
+}
+
+.completeness-list {
+  background-color: #e7e7e7;
+  padding-top: 30px;
+  padding-left: 40px;
+  padding-bottom: 40px;
+  list-style-type: none;
+  margin-top: 0;
+  font-size: large;
+  width: 100%;
+  border-radius: 30px;
+}
+
+.completeness-list li {
+  margin-bottom: 10px;
+}
+
+.done {
+  color: grey;
+  text-decoration: line-through;
+}
+
+.not-done {
+  color: black;
+}
