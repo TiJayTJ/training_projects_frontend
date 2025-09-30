@@ -1,0 +1,100 @@
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.datepicker {
+  display: flex;
+  flex-direction: row;
+  justify-self: center;
+  justify-content: center;
+  position: relative;
+  width: 300px;
+}
+
+.calendar-input {
+  height: 40px;
+  padding-left: 20px;
+  font-size: larger;
+}
+
+.calendar-button {
+  border: 1;
+}
+
+.calendar-button:active {
+  border: 1;
+}
+
+.calendar-button img {
+  width: 36px;
+  height: 36px;
+}
+
+.calendar {
+  border: 1px solid grey;
+  border-radius: 2px;
+  position: absolute;
+  top: 55px;
+  font-size: larger;
+  width: 100%;
+}
+
+.month-year {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 40px;
+}
+
+.month-year p {
+  margin: 0;
+  color: rgb(75, 75, 75);
+}
+
+.month-year button {
+  background-color: white;
+  border: 0;
+}
+
+.left-arrow {
+  height: 0;
+  width: 0;
+  z-index: 1;
+  border: 10px solid black;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid transparent;
+}
+
+.right-arrow {
+  height: 0;
+  width: 0;
+  z-index: 1;
+  border: 10px solid black;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid transparent;
+}
+
+.weak {
+  border-collapse: collapse;
+}
+
+.weak-header {
+  width: 41px;
+  height: 41px;
+  text-align: center;
+}
+
+.days td {
+  width: 41px;
+  height: 41px;
+  text-align: center;
+  border-top: 1px solid grey;
+  border-left: 1px solid grey;
+}
+
+.days td:first-child {
+  border-left: 0;
+}
