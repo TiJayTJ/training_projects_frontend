@@ -25,6 +25,7 @@ body {
 
 .input-field {
   margin-bottom: 20px;
+  position: relative;
 }
 
 .input-field label {
@@ -55,10 +56,28 @@ body {
   margin-top: 5px;
 }
 
+.visibility-button {
+  position: absolute;
+  right: -20px;
+  top: 59%;
+  background-color: white;
+  border: 0;
+}
+
+.visibility-button:active {
+  opacity: 50%;
+}
+
+.visibility-button img {
+  width: 20px;
+  height: 20px;
+}
+
 .update-button {
   padding: 10px;
   width: 100%;
   border-radius: 12px;
+  border: 4px solid black;
   background-color: black;
   color: white;
   font-size: large;
@@ -70,6 +89,10 @@ body {
 
 .update-button:active {
   background-color: rgb(36, 36, 36);
+}
+
+.update-button:focus {
+  border: 4px solid rgb(128, 128, 128);
 }
 
 .right-side {
